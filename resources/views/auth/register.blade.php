@@ -28,11 +28,11 @@
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="{{route('register')}}" method="post">
+                            <form action="{{ route('register')}}" method="post">
                                 @csrf
                                 <div class="form-group">
-                                    <label>Name</label>
-                                    <input class="au-input au-input--full" type="text" name="name" placeholder="Name">
+                                    <label>Nama</label>
+                                    <input class="au-input au-input--full" type="text" name="name" placeholder="Nama">
                                 </div>
                                 <div class="form-group">
                                     <label>Email Address</label>
